@@ -1,0 +1,598 @@
+@import "css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+  --bs-body-font-family: 'Montserrat', sans-serif!important;;
+}
+
+/*Paleta de colores*/
+.amarillo {
+  background-color: #facc15;
+}
+
+.morado-indigo {
+  background-color: #312e81;
+}
+
+.azul-cielo {
+  background-color: #2563eb;
+}
+
+.azul-medio {
+  background-color: #1d4ed8;
+}
+
+.azul-oscuro {
+  background-color: #1e40af;
+}
+
+.gris-zinc {
+  background-color: #d4d4d8;
+}
+
+.negro-zinc {
+  background-color: #18181b;
+}
+
+/* ConfiguraciÃ³n general para los bordes*/
+*{
+  box-sizing: border-box;
+}
+
+.texto-azul-medio {
+  color: #1d4ed8;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-\[32rem\] {
+  height: 32rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-1\/3 {
+  height: 33.333333%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.hover-blue{
+  color: #ffffff;
+}
+
+.hover-blue:hover{
+  background-color: #232157;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+/** TÃ­tulos & textos **/
+
+/*TÃ­tulo de las portadas*/
+.mainTitle{
+  color: #facc15;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+/*SubtÃ­tulo de las portadas*/
+.mainSubtitle{
+  color: #FFFFFF;
+  font-size: 25px;
+  transition-duration: 0.5s;
+}
+
+.sectionTitle{
+  color: #18181b;
+  transition-duration: 0.5s;
+}
+
+.lightSection:hover .sectionTitle{
+  color: #1d4ed8;
+}
+
+.sectionSeparator{
+  width: 60px;
+  height: 4px;
+  background: #18181b;
+  margin: 16px auto 24px auto;
+  transition-duration: 0.5s;
+}
+
+.lightSection:hover .sectionSeparator{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #1d4ed8;
+}
+
+.titleDarkSection{
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+
+.darkSection:hover .titleDarkSection{
+  color: #facc15;
+}
+
+.darkSectionSeparator{
+  width: 60px;
+  height: 4px;
+  background: #FFFFFF;
+  margin: 16px auto 24px auto;
+  transition-duration: 0.5s;
+}
+
+.darkSection:hover .darkSectionSeparator{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #facc15;
+}
+
+.areaTitle{
+  color: #18181b;
+}
+
+.areaText{
+  color: #18181b;
+}
+
+.area:hover .areaTitle{
+  color:#facc15;
+}
+
+.area:hover .areaText{
+  color:#FFFFFF;;
+}
+
+
+/*Eliminar*/
+.tituloPrincipal{
+  color: #facc15;
+  font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+.subtituloPrincipal{
+  color: #FFFFFF;
+  font-size: 25px;
+  transition-duration: 0.5s;
+}
+
+/** Secciones o Ã¡reas **/
+.area{
+  background:#ececec;
+  transition-duration: 0.5s;
+}
+
+.area:hover{
+  background:#18181b; 
+}
+
+.galleryContainer{
+  background-color: #08080a;
+  margin-top: 30px;
+}
+
+/** ImÃ¡genes **/
+.areaImage{
+  height: 80px;
+  transition-duration: 0.5s;
+  margin-bottom: 10px;
+}
+
+.area:hover .areaImage{
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.bg-gob {
+  background-color: #0B211C;
+}
+
+/** Botones **/
+
+/*BotÃ³n para la portada principal */
+.mainButton{
+  background-color: #1d4ed8;
+  color: #FFFFFF;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.mainButton:hover{
+  background-color: #facc15;
+  color: #18181b;
+}
+
+.btnCambioTexto{
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 15px;
+  border-style: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+/*.botonPrincipal{
+  background-color: #1d4ed8;
+  color: #FFFFFF;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.botonPrincipal:hover{
+  background-color: #facc15;
+  color: #18181b;
+}*/
+
+/** Media Queries **/
+
+@media (max-width: 600px) {
+  .mainTitle{
+    color: #facc15;
+    font-size: 20px;
+    transition-duration: 0.5s;
+  }
+
+  .mainSubtitle{
+    color: #FFFFFF;
+    font-size: 15px;
+    transition-duration: 0.5s;
+  }
+
+  .mainButton{
+    background-color: #1d4ed8;
+    color: #FFFFFF;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    transition-duration: 0.5s;
+  }
+  
+  .mainButton:hover{
+    background-color: #facc15;
+    color: #18181b;
+  }
+}
+
+/*General*/
+
+.tituloSeccionAmarillo{
+  color: #ffc107;
+  transition-duration: 0.5s;
+}
+
+.separadorSeccionAmarillo{
+  width: 60px;
+  height: 4px;
+  background: #18181b;
+  margin: 16px auto 24px auto;
+  transition-duration: 0.5s;
+}
+
+.seccionSistemasAmarillo:hover .tituloSeccionAmarillo{
+  color: #18181b;
+}
+
+.seccionSistemasAmarillo:hover .separadorSeccionAmarillo{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #ffc107;
+}
+
+.tituloSeccion{
+  color: #18181b;
+  transition-duration: 0.5s;
+}
+
+.separadorSeccion{
+  width: 60px;
+  height: 4px;
+  background: #18181b;
+  margin: 16px auto 24px auto;
+  transition-duration: 0.5s;
+}
+
+.seccionSistemas:hover .tituloSeccion{
+  color: #1d4ed8;
+}
+
+.seccionSistemas:hover .separadorSeccion{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #1d4ed8;
+}
+
+.seccionArea:hover .tituloSeccion{
+  color: #1d4ed8;
+}
+
+.seccionArea:hover .separadorSeccion{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #1d4ed8;
+}
+
+.seccionSistemas:hover .separadorSeccion{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #1d4ed8;
+}
+
+
+.tituloSeccionOscura{
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+
+.separadorSeccionOscura{
+  width: 60px;
+  height: 4px;
+  background: #FFFFFF;
+  margin: 16px auto 24px auto;
+  transition-duration: 0.5s;
+}
+
+.seccionInstalaciones:hover .tituloSeccionOscura{
+  color: #facc15;
+}
+
+.seccionInstalaciones:hover .separadorSeccionOscura{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #facc15;
+}
+
+.seccionComunidad:hover .tituloSeccion{
+  color: #1d4ed8;
+}
+
+.seccionComunidad:hover .separadorSeccion{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #1d4ed8;
+}
+
+
+.imagenArea{
+  height: 80px;
+  transition-duration: 0.5s;
+  margin-bottom: 10px;
+}
+
+.tituloArea{
+  color: #18181b;
+}
+
+.textoArea{
+  color: #18181b;
+}
+
+.area:hover .imagenArea{
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.tituloAreaDocente{
+  height: 50px;
+  color: #18181b;
+}
+
+.area:hover .tituloAreaDocente{
+  color:#facc15;
+}
+
+.area:hover .tituloArea{
+  color:#facc15;
+}
+
+.area:hover .textoArea{
+  color:#FFFFFF;;
+}
+
+.imagen-docentes{
+  width: 10rem;
+  height: 10rem;
+  transition-duration: 0.5s;
+}
+
+.imagen-docentes:hover{
+  width: 11rem;
+  height: 11rem;
+}
+
+.imagen-docentesModal{
+  width: 15rem;
+  height: 15rem;
+  transition-duration: 0.5s;
+}
+
+.imagen-docentesModal:hover{
+  width: 16rem;
+  height: 16rem;
+}
+
+/* Contenedores */ 
+
+.contenedor{
+    padding: 20px;
+}
+
+.info-box{
+  display: flex;
+  align-items: center;
+}
+
+.info-box img{
+  width:unset;
+  margin-right: 18px;
+}
+
+.info-box p{
+  font-size: 15px;
+}
+
+.icono{
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+
+.contenedor-informacion{
+  padding: 30px;
+}
+
+.contenedor-informacion p{
+  font-size: 15px;
+}
+
+
+.contenedor-galeria{
+  background-color: #08080a;
+  margin-top: 30px;
+}
+
+.contenedor-galeria:hover .tituloSeccionOscura{
+  color: #facc15;
+}
+
+.contenedor-galeria:hover .separadorSeccionOscura{
+  width: 100px;
+  margin: 24px auto 28px auto;
+  background: #facc15;
+}
+
+@media (max-width: 1200px) {
+  .info-box p{
+    font-size: 12px;
+  }
+}
+
+.video{
+  width: 600px;
+  height: 300px;
+}
+
+@media (max-width: 1050px) {
+  .video{
+    width: 450px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 750px) {
+  .video{
+    width: 300px;
+    height: 150px;
+  }
+}
+
+.video-reticula{
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 991px) {
+  .video-reticula{
+    width: 450px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 520px) {
+  .video-reticula{
+    width: 395px;
+    height: 140x;
+  }
+}
+
+@media (max-width: 400px) {
+  .video-reticula{
+    width: 250px;
+    height: auto;
+  }
+}
+
+.img-normalizada{
+	width: 100%;
+	object-fit: cover;
+}

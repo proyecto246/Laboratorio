@@ -1,0 +1,141 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+
+.contenerdorgaleria{
+  background-color: #312e81;
+}
+.contenido2{
+  background-color: #454391;
+}
+.contenido3{
+  background-color: #6a67b9;
+}
+.contenido4{
+  background-color: #8380cc;
+}
+.videos{
+  background-color: #a7a5e2;
+}
+.hojas{
+  background-color: #ffffff;
+}
+
+.tituloprincipal{
+  color: #facc15;
+  -webkit-text-stroke: .3px #000; /* contorno blanco de 2px */
+  font-size: 400%;
+  text-decoration-style: solid;
+  transition-duration: 0.5s;
+  margin: 20px;
+  text-align: center;
+  padding: 15%;
+}
+.titulo {
+  color: #facc15;
+  font-size: 30px;
+  transition-duration: 0.5s;
+  margin: 20px;
+  text-align: center;
+}
+
+.galeria img {
+  box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+  border-radius: 15px;
+  margin: 20px;
+  width: 80%;
+}
+
+.galeria img {
+  transition: transform .2s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.materialbox-caption {
+  bottom: 30px;
+  right: 0;
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  background: #000;
+  box-shadow: 5px 5px #fff;
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.galeria .col {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+  .materialbox-caption {
+       width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .materialbox-caption {
+       width: 70%;
+  }
+}
+
+/* en}mparejar a la imagen del inicio*/
+.encabezado{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  
+}
+
+
+/* pruebas*/
+.card{
+  margin: 10px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ESTILOS TABLAS */
+
+.botton-server{
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.botton-server:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+
