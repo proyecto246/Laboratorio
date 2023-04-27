@@ -1,648 +1,1057 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laboratorio LCI</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css" />
     <script defer src="js/app.js"></script>
     <script src="css/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/galery.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" href="css/galery.css" />-->
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
-    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.css" />
+  </head>
 
-<body>
+  <body>
+    <!--Encabezado-->
     <div class="Encabezado">
-        <img src="assets/Screenshot_2020-01-24_TecNM_Tecnológico_Nacional_de_México1.png" alt="">
+      <img
+        src="assets/Screenshot_2020-01-24_TecNM_Tecnológico_Nacional_de_México1.png"
+        alt=""
+      />
     </div>
+
     <!-- Logotipos de TECNM -->
     <div class="row g-0 d-none d-md-flex">
-        <!-- Logo de Gobierno -->
-        <div class="col align-items-start">
-            <div class="row g-0 align-items-center">
-                <div class="col-sm-auto">
-                    <a href="https://www.gob.mx/" target="_blank">
-                        <img src="assets/logo-gob-mx.png" height="60" alt="Gobierno de México">
-                    </a>
-                </div>
-                <!-- Separador -->
-                <div class="col-sm-auto">
-                    <img src="assets/linea-vertical-separador-logos.svg" height="70" alt="separador">
-                </div>
-                <!-- Logo de SEP -->
-                <div class="col-sm-auto">
-                    <a href="https://www.gob.mx/sep" target="_blank">
-                        <img src="assets/logo-educacion.svg" height="60" alt="Secretaria de Educación Pública">
-                    </a>
-                </div>
-                <!-- Separador -->
-                <div class="col-sm-auto">
-                    <img src="assets/linea-vertical-separador-logos.svg" height="70" alt="separador">
-                </div>
-                <!-- Logo TECNM -->
-                <div class="col-sm-auto">
-                    <a href="https://www.tecnm.mx/" target="_blank">
-                        <img src="assets/logo-tecnm.svg" height="100" alt="TECNM">
-                    </a>
-                </div>
-                <!-- Separador -->
-                <div class="col-sm-auto">
-                    <img src="assets/linea-vertical-separador-logos.svg" height="70" alt="separador">
-                </div>
-                <!-- Logo ITVER -->
-                <div class="col-sm-auto">
-                    <div class="d-flex px-2 w-80 h-auto">
-                        <a href="https://www.veracruz.tecnm.mx/index.php" target="_blank">
-                            <img src="assets/itver-logo.PNG" alt="ITVER-logo" height="60" class="ITVER">
-                        </a>
-                    </div>
-                </div>
+      <!-- Logo de Gobierno -->
+      <div class="col align-items-start">
+        <div class="row g-0 align-items-center">
+          <div class="col-sm-auto">
+            <a href="https://www.gob.mx/" target="_blank">
+              <img
+                src="assets/logo-gob-mx.png"
+                height="60"
+                alt="Gobierno de México"
+              />
+            </a>
+          </div>
+          <!-- Separador -->
+          <div class="col-sm-auto">
+            <img
+              src="assets/linea-vertical-separador-logos.svg"
+              height="70"
+              alt="separador"
+            />
+          </div>
+          <!-- Logo de SEP -->
+          <div class="col-sm-auto">
+            <a href="https://www.gob.mx/sep" target="_blank">
+              <img
+                src="assets/logo-educacion.svg"
+                height="60"
+                alt="Secretaria de Educación Pública"
+              />
+            </a>
+          </div>
+          <!-- Separador -->
+          <div class="col-sm-auto">
+            <img
+              src="assets/linea-vertical-separador-logos.svg"
+              height="70"
+              alt="separador"
+            />
+          </div>
+          <!-- Logo TECNM -->
+          <div class="col-sm-auto">
+            <a href="https://www.tecnm.mx/" target="_blank">
+              <img src="assets/logo-tecnm.svg" height="100" alt="TECNM" />
+            </a>
+          </div>
+          <!-- Separador -->
+          <div class="col-sm-auto">
+            <img
+              src="assets/linea-vertical-separador-logos.svg"
+              height="70"
+              alt="separador"
+            />
+          </div>
+          <!-- Logo ITVER -->
+          <div class="col-sm-auto">
+            <div class="d-flex px-2 w-80 h-auto">
+              <a href="https://www.veracruz.tecnm.mx/index.php" target="_blank">
+                <img
+                  src="assets/itver-logo.PNG"
+                  alt="ITVER-logo"
+                  height="60"
+                  class="ITVER"
+                />
+              </a>
             </div>
+          </div>
         </div>
-        <div class="col-sm-auto justify-content-end d-none d-md-block">
-            <a class="text-decoration-none" href="https://login.microsoftonline.com/?whr=tecnm.mx" target="_blank">
-                <img style="width:15%;" src="assets/correo-icono.png" alt="Buzón">
-            </a>
-            <a class="text-decoration-none" href="https://www.tecnm.mx/" target="_blank">
-                <img src="assets/idiomas.png" height="40" alt="Gobierno de México">
-            </a>
-        </div>
+      </div>
+      <div class="col-sm-auto justify-content-end d-none d-md-block">
+        <a
+          class="text-decoration-none"
+          href="https://login.microsoftonline.com/?whr=tecnm.mx"
+          target="_blank"
+        >
+          <img style="width: 15%" src="assets/correo-icono.png" alt="Buzón" />
+        </a>
+        <a
+          class="text-decoration-none"
+          href="https://www.tecnm.mx/"
+          target="_blank"
+        >
+          <img src="assets/idiomas.png" height="40" alt="Gobierno de México" />
+        </a>
+      </div>
     </div>
 
     <!--Banner-->
-    <div class="jumbotron jumbotron-fluid"
-        style="height: 500px;background-image: url('img/LCI-imagenes/LCI/BANER/lci1.jpg');">
-        <div class="container">
-            <h1 class="tituloprincipal">Bienvenidos al Laboratorio de Computo Intensivo</h1>
-        </div>
-    </div>
-
-
-
-    <!--Galeria -->
-    <main class="contenerdorgaleria">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h1 class="titulo">Visitas al laboratorio</h1>
-            </div>
-        </div>
-
-        <div class="row galeria">
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/visitas/2015-03-24 11.53.34.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/visitas/2015-03-24 12.04.26.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/visitas/2015-03-24 12.05.10.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/VISITAS/2016/(1)09-04-16.jpg" alt=""
-                        class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/VISITAS/2016/(2)09-04-16.jpg" alt=""
-                        class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/VISITAS/2019/30-08-19 (3).jpg" alt=""
-                        class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/VISITAS/2019/23-08-19 (3).jpg" alt=""
-                        class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/VISITAS/2019/23-08-19 (5).jpg" alt=""
-                        class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-
-        </div>
-    </main>
-
-
-    <main class="contenido2">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h1 class="titulo">Proyectos</h1>
-            </div>
+    <section>
+      <div
+        id="myCarousel"
+        class="carousel slide col-lg-12 col-sm-12"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="active"
+            aria-current="true"
+          ></button>
         </div>
 
-        <div class="row galeria">
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/posters/Poster_Proy_Kinect.png" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img
+              src="img/banner/lab-01.png"
+              class="d-block w-100 align-middle"
+              width="100%"
+              height="100%"
+            />
+            <div class="container">
+              <div class="carousel-caption d-flex flex-column">
+                <h1 class="mainTitle text-center font-bold m-2">
+                  Laboratorio de Computo Intensivo
+                </h1>
+                <h2 class="mainSubtitle text-center font-bold">
+                  Ingenieria en sistemas computacionales
+                </h2>
+                <p></p>
+              </div>
             </div>
+          </div>
 
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/posters/Poster_Proy_Particulas.png" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
+          <div class="carousel-item">
+            <img
+              src="img/banner/visita-2019.png"
+              class="d-block w-100 align-middle"
+              width="100%"
+              height="100%"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="mainTitle text-center font-bold m-2">
+                  Laboratorio de Computo Intensivo
+                </h1>
+                <h2 class="mainSubtitle text-center font-bold">
+                  Ingenieria en sistemas computacionales
+                </h2>
+                <p></p>
+              </div>
             </div>
+          </div>
 
-        </div>
-    </main>
-
-
-
-    <main class="contenido3">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h1 class="titulo">Especificaciones</h1>
+          <div class="carousel-item active">
+            <img
+              src="img/banner/visita-2016.png"
+              class="d-block w-100 align-middle"
+              width="100%"
+              height="100%"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="mainTitle text-center font-bold m-2">
+                  Laboratorio de Computo Intensivo
+                </h1>
+                <h2
+                  class="mainSubtitle text-center font-bold d-none d-md-inline-flex"
+                >
+                  Ingenieria en sistemas computacionales
+                </h2>
+                <p></p>
+              </div>
             </div>
-        </div>
-
-        <div class="row galeria">
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/posters/Poster_Cluster_Agave.png" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/posters/Poster_Cluster_Nopal.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/posters/Poster_Cluster_Peyote.png" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-        </div>
-
-
-    </main>
-
-    <main class="contenido4">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h1 class="titulo">Evolucion del Laboratorio</h1>
-            </div>
-        </div>
-
-        <div class="row galeria">
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/EVOLUCION/Nopal-1.0.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/EVOLUCION/Agave-1.0.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/EVOLUCION/Agave-1.1.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-            <div class="col s12 m4 l3">
-                <div class="material-placeholder">
-                    <img src="img/LCI-imagenes/LCI/EVOLUCION/Lab-1.0.jpg" alt="" class="responsive-img materialboxed"
-                        data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                </div>
-            </div>
-
-
+          </div>
         </div>
 
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-    </main>
+    <!--Presentación del laboratorio-->
+    <section class="p-2">
+      <div class="row px-2 g-0">
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+          <div
+            class="d-flex justify-content-center align-items-center w-100 h-100"
+          >
+            <img
+              class="img-fluid rounded"
+              src="img/evolucion-lab/que-es-cluster.png"
+              alt=""
+            />
+          </div>
+        </div>
 
+        <div class="lightSection col-lg-6 col-12 p-4">
+          <div
+            class="d-flex justify-content-center align-items-center w-100 h-100"
+          >
+            <div class="row g-0">
+              <div class="col-12">
+                <h2 class="sectionTitle text-center font-bold m-3">
+                  ¿Qué es LCI?
+                </h2>
+                <div class="sectionSeparator"></div>
+              </div>
+              <div class="col-12" style="text-align: center">
+                <p style="text-align: justify">
+                  Un laboratorio de alto desempeño (HPL, por sus siglas en inglés) es 
+                  una instalación científica diseñada para llevar a cabo investigaciones 
+                  y experimentos de alta complejidad en diversas áreas de la ciencia y la
+                   tecnología. Un HPL se caracteriza por estar equipado con instrumentación 
+                   y equipos de última generación que permiten llevar a cabo investigaciones
+                    de alta precisión y con alto grado de automatización.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!--Evolucion del Laboratorio v1.1-->
+
+    <section class="class="lightSection bg-light p-2"">
+
+      <div class="row px-2 g-0">
+        
+        <div class="lightSection col-lg-6 col-12 p-4">
+          <div
+            class="d-flex justify-content-center align-items-center w-100 h-100"
+          >
+            <div class="row g-0">
+              <div class="col-12">
+                <h2 class="sectionTitle text-center font-bold m-3">
+                  Un poco de Historia.
+                </h2>
+                <div class="sectionSeparator"></div>
+              </div>
+              <div class="col-12" style="text-align: center">
+                <p style="text-align: justify">
+                  El laboratorio de cómputo de la universidad comenzó con unas pocas computadoras para que los estudiantes pudieran utilizarlas para sus proyectos. Sin embargo, con el tiempo, la demanda de recursos computacionales creció y se decidió crear un laboratorio de cómputo con cluster. La universidad invirtió en un conjunto de computadoras interconectadas que trabajan juntas como si fueran una sola unidad de procesamiento. Con esta nueva infraestructura, los estudiantes y profesores pudieron realizar proyectos más grandes y complejos que requerían una gran cantidad de recursos computacionales. Con el tiempo, el laboratorio de cómputo con cluster se expandió y se convirtió en un recurso valioso para la investigación y el desarrollo en la universidad y en la comunidad en general.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+          <div
+            class="d-flex justify-content-center align-items-center w-100 h-100"
+          >
+            <img
+              class="img-fluid rounded"
+              src="img/evolucion-lab/Lab-1.0.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--Visitas v1.1-->
+
+    
+
+    <!--Visitas v1.0 -->
+    <!--<section class="contenerdorgaleria">
+      <div class="row">
+        <h2 class="sectionTitle text-center font-bold m-3">
+          ¿Qué es y para qué sirve un clúster?
+        </h2>
+      </div>
+
+      <div class="row galeria">
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/visitas/2015-03-24 11.53.34.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/visitas/2015-03-24 12.04.26.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/visitas/2015-03-24 12.05.10.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/VISITAS/2016/(1)09-04-16.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/VISITAS/2016/(2)09-04-16.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/VISITAS/2019/30-08-19 (3).jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/VISITAS/2019/23-08-19 (3).jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/VISITAS/2019/23-08-19 (5).jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- Proyectos v1.1-->
+    <section class="lightSection bg-light p-2">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-4 col text-center p-3">
+          <div class="area shadow-sm p-4">
+            <a href="img/posters/Poster_Proy_Kinect.png"
+              ><img
+                class="items-center"
+                src="img/posters/Poster_Proy_Kinect.png"
+                alt=""
+            /></a>
+
+            <h3 class="areaTitle text-center font-bold text-xl">
+              Proyecto Kinect
+            </h3>
+            <p class="areaText">
+              Desarrollar un prototipo de interfaz natural de usuario basado en
+              Kinet, usando librerias de software libre y processing.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col text-center p-3">
+          <div class="area shadow-sm p-4">
+            <a href="img/posters/Poster_Proy_Particulas.png">
+              <img
+                class="items-center"
+                src="img/posters/Poster_Proy_Particulas.png"
+                alt=""
+              />
+            </a>
+
+            <h3 class="areaTitle text-center font-bold text-xl">
+              Proyecto Particulas
+            </h3>
+            <p class="areaText">
+              Este simulador aprovecha los recursos de los clústers contruidos
+              en el LCI para el renderizado de animaciones 3D.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col text-center p-3">
+          <h2 class="sectionTitle text-lg-center font-bold m-3">
+            Proyectos Realizados
+          </h2>
+          <div class="sectionSeparator"></div>
+
+          <p style="text-align: justify">
+            Realizar proyectos y prácticas universitarias en clusters puede ser
+            muy beneficioso para los estudiantes, ya que les proporciona una
+            experiencia práctica valiosa y los prepara para el mercado laboral.
+            También puede ser beneficioso para las instituciones educativas, ya
+            que puede mejorar la eficiencia en el procesamiento de datos y
+            reducir costos.
+          </p>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!--Proyectos v1.0-->
+    <!-- <section class="contenido2">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h1 class="titulo">Proyectos</h1>
+        </div>
+      </div>
+      <div class="row galeria">
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/posters/Poster_Proy_Kinect.png"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/posters/Poster_Proy_Particulas.png"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--Especificaciones tecnicas v1.1-->
+
+    <!--Especificaciones tecnicas v1.0-->
+    <!-- <section class="contenido3">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h1 class="titulo">Especificaciones tecnicas</h1>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/posters/Poster_Cluster_Agave.png"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/posters/Poster_Cluster_Nopal.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/posters/Poster_Cluster_Peyote.png"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--Evolucion del Laboratorio v1.0-->
+    <!-- <section class="contenido4">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h1 class="titulo">Evolucion del Laboratorio</h1>
+        </div>
+      </div>
+
+      <div class="row galeria">
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/EVOLUCION/Nopal-1.0.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/EVOLUCION/Agave-1.0.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/EVOLUCION/Agave-1.1.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+
+        <div class="col s12 m4 l3">
+          <div class="material-placeholder">
+            <img
+              src="img/LCI-imagenes/LCI/EVOLUCION/Lab-1.0.jpg"
+              alt=""
+              class="responsive-img materialboxed"
+              data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- KIKE PARA QUE MADRES ES ESTO???-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 
-
-
-
-
-
-
-
-    <div class="videos">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h1 class="titulo">Seccion de Videos</h1>
-            </div>
+    <!--Seccion Videos v1.1-->
+    <section class="lightSection bg-light p-2">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="sectionTitle text-center font-bold m-3">Videos de LCI</h2>
+          <div class="sectionSeparator"></div>
         </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bxWB3v9u3DA" frameborder="0" allowfullscreen></iframe>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3o6AmVlHmcg" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VJB35ckKwls" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/c4Yw4vpkHr4" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rDWAFSN9uJY" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="video-container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gtt-At6tG_w" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col text-center p-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bxWB3v9u3DA"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-    </div>
-    <script src="js/video.js"></script>
-
-
-    <div class="hojas">
-        <h1 class="titulo">Hojas tecnicas Clusters</h1>
-        <div class="row d-flex justify-content-center">
-
-
-            <!--################################-->
-            <!--SERVIDORES-->
-            <!--################################-->
-
-            <div class=" row d-flex justify-content-center ">
-                <!--################################-->
-                <!--AGAVE-->
-                <!--################################-->
-
-                <div class=" card" style="width: 18rem;">
-                    <img src="img/Agave.png" class="card-img-top" alt="...">
-                    <div class="card-body align-items-center">
-                        <h5 class="card-title">Agave</h5>
-                        <p class="card-text">Cluster HPC conectado a la Grid Morelense y usado para aprendizaje y
-                            desarrollo
-                            inicial</p>
-                        <button type="button" class=" botton-server" data-bs-toggle="modal"
-                            data-bs-target="#ModalAgave">
-                            Ver Especificaciones
-                        </button>
-                    </div>
-                    <!--################################-->
-                    <!-- MODAL AGAVE-->
-                    <!--################################-->
-                    <div class="modal fade" id="ModalAgave" tabindex="-1" role="dialog"
-                        aria-labelledby="ModalAgaveLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="ModalAgaveLabel">Agave</h5>
-                                </div>
-                                <div class="modal-body text-center">
-
-                                    <h2>
-                                        32 cores en :
-                                    </h2>
-                                    <li>1 mtro c/2 Xeon Quadcore E5530 de 2.4 Ghz</li>
-                                    <li>1 slave c/1 Xeon Quadcore E5530 de 2.4 Ghz</li>
-                                    <li>2 slave c/1 Xeon Quadcore E5505 de 2.0 Ghz</li>
-                                    <li>3 slave c/1 Xeon Quadcore E5460 de 3.16 Ghz</li>
-                                    <h4 class="text-left">> 331.168 Gflops </h4>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--################################-->
-                <!--PEYOTE-->
-                <!--################################-->
-
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Peyote.png" class="card-img-top" alt="...">
-                    <div class="card-body ">
-                        <h5 class="card-title">Peyote</h5>
-                        <p class="card-text">Cluster de visualización. Usado para porte del muro de visualizacion.
-                            Cuenta con 16
-                            monitores (1280x720) que dan una resolucion global de 14 Mpix</p>
-                        <button type="button" class="botton-server" data-bs-toggle="modal"
-                            data-bs-target="#ModalPeyote">
-                            Ver Especificaciones
-                        </button>
-                    </div>
-                    <!-- MODAL PEYOTE-->
-                    <div class="modal fade" id="ModalPeyote" tabindex="-1" role="dialog"
-                        aria-labelledby="ModalPeyoteLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="ModalAgaveLabel">Peyote</h5>
-                                </div>
-                                <div class="modal-body text-center">
-
-
-                                    <h4>28 cores en:</h4>
-                                    <li>5 Intel Core2 Quad.</li>
-                                    <li>4 Intel I5 Quad.</li> <br>
-                                    <h4>3456 cudaCores en:</h4>
-                                    <li>5 Nvidia GTX 650 (384 core cuda).</li>
-                                    <li>3 Nvidia GTX 750 (512 core cuda).</li><br>
-                                    <h4 class="text-left">
-                                        > 331.168 Gflops < <br>
-                                            > 621.84 Gflops < <br>
-                                                > 7197 GflopsSP < </h4>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--################################-->
-                <!--NOPAL-->
-                <!--################################-->
-
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Nopal.png" class="card-img-top" alt="...">
-                    <div class="card-body ">
-                        <h5 class="card-title">Nopal</h5>
-                        <p class="text-center">Cluster HPC de Producción. Usado para pruebas finales a reportar en
-                            publicaciones
-                        </p>
-                        <button type="button" class="botton-server" data-bs-toggle="modal" data-bs-target="#ModalNopal">
-                            Ver Especificaciones
-                        </button>
-                    </div>
-                    <!-- MODAL NOPAL-->
-                    <div class="modal fade" id="ModalNopal" tabindex="-1" role="dialog"
-                        aria-labelledby="ModalPeyoteLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="ModalAgaveLabel">Nopal</h5>
-                                </div>
-                                <div class="modal-body text-center">
-
-                                    <h2>
-                                        20 cores en:
-                                    </h2>
-                                    <li>1 mtro P4 840 3.26 Ghz</li>
-                                    <li>4 slave Core 2 Duo E8200 2.66 Ghz</li>
-                                    <h4>> 98.11 Gflops </h4>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="col-lg-4 col text-center p-3 ">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3o6AmVlHmcg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          </div>
+          <div class="col-lg-4 col text-center p-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VJB35ckKwls"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col text-center p-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/c4Yw4vpkHr4"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-lg-4 col text-center p-3 ">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/rDWAFSN9uJY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          </div>
+          <div class="col-lg-4 col text-center p-3">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/gtt-At6tG_w"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <!--Seccion Videos v1.0-->
+    <!-- <div class="videos">
+      <div class="row">
+        <div class="col s12 center-align">
+          <h1 class="titulo">Seccion de Videos</h1>
+        </div>
+      </div>
 
-    <footer>
-        <div class="row g-0 gap-4 p-5" style="background-color: #1B396A;">
-            <div class="col-sm text-white">
-                <h5>Dirección:</h5>
-                <p>Tecnológico Nacional de México Veracruz<br>
-                    Calz. Miguel Angel de Quevedo 2779<br>
-                    Col. Formando Hogar, Veracruz, Ver. MEXICO CP 91897<br>
-                    Contacto:<br>
-                    (229) 934 15 00<br>
-                    web_veracruz@tecnm.mx</p>
-                <p class="font-semibold">Tecnológico Nacional de México Campus Veracruz<br>
-                    <a class="text-white text-decoration-none font-semibold"
-                        href="https://www.veracruz.tecnm.mx/index.php" target="_blank">www.veracruz.tecnm.mx</a><br>
-                </p>
-            </div>
-            <div class="col-sm plug-ing maps">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.8843702463105!2d-96.16179568525244!3d19.200252087016814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c34419964cc761%3A0xa6d7c54363cf608e!2sTecNM%20-%20Campus%20Instituto%20Tecnol%C3%B3gico%20de%20Veracruz!5e0!3m2!1ses-419!2smx!4v1651009895643!5m2!1ses-419!2smx"
-                    class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/bxWB3v9u3DA"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
+          </div>
         </div>
-
-        <div class="row g-0 p-5 text-white" style="background-color: #0E3129;">
-            <div class="col-sm-3 px-2">
-                <img src="assets/logo-gob.svg" alt="Gobierno de México" style="max-width: 90%;">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/3o6AmVlHmcg"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
-            <div class="col-sm-3 px-2">
-                <h5>Enlaces</h5>
-                <ul>
-                    <li>
-                        <a href="https://participa.gob.mx" target="_blank" class="text-white text-decoration-none"
-                            title="Participa">Participa</a>
-                    </li>
-                    <li>
-                        <a href="https://www.gob.mx/publicaciones" target="_blank"
-                            class="text-white text-decoration-none" title="Publicaciones Oficiales">Publicaciones
-                            Oficiales</a>
-                    </li>
-                    <li>
-                        <a href="http://www.ordenjuridico.gob.mx" target="_blank"
-                            class="text-white text-decoration-none" title="Marco Jurídico">Marco Jurídico</a>
-                    </li>
-                    <li>
-                        <a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank"
-                            class="text-white text-decoration-none"
-                            title="Plataforma Nacional de Transparencia">Plataforma Nacional de Transparencia</a>
-                    </li>
-                    <li>
-                        <a href="https://alertadores.funcionpublica.gob.mx/" target="_blank"
-                            class="text-white text-decoration-none" title="Alerta">Alerta</a>
-                    </li>
-                    <li>
-                        <a href="https://sidec.funcionpublica.gob.mx" target="_blank"
-                            class="text-white text-decoration-none" title="Denuncia">Denuncia</a>
-                    </li>
-
-
-
-
-                </ul>
-            </div>
-            <div class="col-sm-3 px-2">
-                <h5>¿Qué es gob.mx?</h5>
-                <p>Es el portal único de trámites, información y participación ciudadana.
-                    <a target="_blank" class="text-white text-decoration-none"
-                        href="https://www.gob.mx/que-es-gobmx">Leer más</a>
-                </p>
-                <ul>
-                    <li><a class="text-white text-decoration-none" href="https://datos.gob.mx">Portal de datos
-                            abiertos</a></li>
-                    <li><a class="text-white text-decoration-none" href="https://www.gob.mx/accesibilidad">Declaración
-                            de accesibilidad</a></li>
-                    <li><a class="text-white text-decoration-none" href="https://www.gob.mx/privacidadintegral">Aviso de
-                            privacidad integral</a></li>
-                    <li><a class="text-white text-decoration-none"
-                            href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a>
-                    </li>
-                    <li><a class="text-white text-decoration-none" href="https://www.gob.mx/terminos">Términos y
-                            Condiciones</a></li>
-                    <li><a class="text-white text-decoration-none"
-                            href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de
-                            seguridad</a></li>
-                    <li><a class="text-white text-decoration-none" href="https://www.gob.mx/sitemap">Mapa de sitio</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3 px-2">
-                <h5><a class="text-white text-decoration-none"
-                        href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia
-                        contra servidores públicos</a></h5>
-                <h5>Síguenos en</h5>
-                <ul class="d-inline">
-                    <a class="px-2" target="_blank" href="https://www.facebook.com/gobmexico">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFFF"
-                            class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg></a>
-                    <a class="px-2" target="_blank" href="https://twitter.com/GobiernoMX">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFFFFF"
-                            class="bi bi-twitter" viewBox="0 0 16 16">
-                            <path
-                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                        </svg></a>
-                </ul>
-            </div>
+          </div>
         </div>
-        <div class="row g-0">
-            <img src="assets/pleca-gob.svg" alt="">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/VJB35ckKwls"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-        <script src="assets/js/bootstrap.bundle.js"></script>
-        <script>
-            const elementsAList = document.getElementsByTagName('a');
-            const elementsPList = document.getElementsByTagName('p');
-            const elementsLIList = document.getElementsByTagName('li');
-            const elementsH1List = document.getElementsByTagName('h1');
-            const elementsH2List = document.getElementsByTagName('h2');
-            const elementsH3List = document.getElementsByTagName('h3');
-            const elementsH4List = document.getElementsByTagName('h4');
-            const elementsH5List = document.getElementsByTagName('h5');
-            const elementsH6List = document.getElementsByTagName('h6');
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/c4Yw4vpkHr4"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/rDWAFSN9uJY"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/gtt-At6tG_w"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/video.js"></script> -->
 
-            function getElementFontSize(element) {
-                //getComputedStyle nos devuelve las propiedades css de cada párrafo(elemento)
-                const elementFontSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
-                return parseFloat(elementFontSize);  //Devolvemos el total de pixeles
-            }
+    <!--Fichas tecnicas de los clusters v1.1-->
 
-            function cambiarTexto(operador) {
-                cambioElementos(operador, elementsAList);
-                cambioElementos(operador, elementsPList);
-                cambioElementos(operador, elementsLIList);
-                cambioElementos(operador, elementsH1List);
-                cambioElementos(operador, elementsH2List);
-                cambioElementos(operador, elementsH3List);
-                cambioElementos(operador, elementsH4List);
-                cambioElementos(operador, elementsH5List);
-                cambioElementos(operador, elementsH6List);
-            }
+    <!--Fichas tecnicas de los clusters v1.0-->
 
-            function cambioElementos(operador, list) {
-                for (let element of list) {
-                    //Obtener el total de pixel de cada párrafo.
-                    const currentSize = getElementFontSize(element);
+    <!--Footer-->
+    <footer>
+      <div class="row g-0 gap-4 p-5" style="background-color: #1b396a">
+        <div class="col-sm text-white">
+          <h5>Dirección:</h5>
+          <p>
+            Tecnológico Nacional de México Veracruz<br />
+            Calz. Miguel Angel de Quevedo 2779<br />
+            Col. Formando Hogar, Veracruz, Ver. MEXICO CP 91897<br />
+            Contacto:<br />
+            (229) 934 15 00<br />
+            web_veracruz@tecnm.mx
+          </p>
+          <p class="font-semibold">
+            Tecnológico Nacional de México Campus Veracruz<br />
+            <a
+              class="text-white text-decoration-none font-semibold"
+              href="https://www.veracruz.tecnm.mx/index.php"
+              target="_blank"
+              >www.veracruz.tecnm.mx</a
+            ><br />
+          </p>
+        </div>
+        <div class="col-sm plug-ing maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.8843702463105!2d-96.16179568525244!3d19.200252087016814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c34419964cc761%3A0xa6d7c54363cf608e!2sTecNM%20-%20Campus%20Instituto%20Tecnol%C3%B3gico%20de%20Veracruz!5e0!3m2!1ses-419!2smx!4v1651009895643!5m2!1ses-419!2smx"
+            class="w-100 h-100"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
 
-                    //Restar o sumar, dependiendo del operador.
-                    const newFontSize = (operador === '+' ? (currentSize + 2) : (currentSize - 1)) + 'px';
-                    //Aplicarle al parrafo actual el nuevo tamaño.
-                    element.style.fontSize = newFontSize
-                }
-            }
-        </script>
+      <div class="row g-0 p-5 text-white" style="background-color: #0e3129">
+        <div class="col-sm-3 px-2">
+          <img
+            src="assets/logo-gob.svg"
+            alt="Gobierno de México"
+            style="max-width: 90%"
+          />
+        </div>
+        <div class="col-sm-3 px-2">
+          <h5>Enlaces</h5>
+          <ul>
+            <li>
+              <a
+                href="https://participa.gob.mx"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Participa"
+                >Participa</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.mx/publicaciones"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Publicaciones Oficiales"
+                >Publicaciones Oficiales</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.ordenjuridico.gob.mx"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Marco Jurídico"
+                >Marco Jurídico</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://consultapublicamx.inai.org.mx/vut-web/"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Plataforma Nacional de Transparencia"
+                >Plataforma Nacional de Transparencia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://alertadores.funcionpublica.gob.mx/"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Alerta"
+                >Alerta</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://sidec.funcionpublica.gob.mx"
+                target="_blank"
+                class="text-white text-decoration-none"
+                title="Denuncia"
+                >Denuncia</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 px-2">
+          <h5>¿Qué es gob.mx?</h5>
+          <p>
+            Es el portal único de trámites, información y participación
+            ciudadana.
+            <a
+              target="_blank"
+              class="text-white text-decoration-none"
+              href="https://www.gob.mx/que-es-gobmx"
+              >Leer más</a
+            >
+          </p>
+          <ul>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://datos.gob.mx"
+                >Portal de datos abiertos</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/accesibilidad"
+                >Declaración de accesibilidad</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/privacidadintegral"
+                >Aviso de privacidad integral</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/privacidadsimplificado"
+                >Aviso de privacidad simplificado</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/terminos"
+                >Términos y Condiciones</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/terminos#medidas-seguridad-informacion"
+                >Política de seguridad</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-white text-decoration-none"
+                href="https://www.gob.mx/sitemap"
+                >Mapa de sitio</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 px-2">
+          <h5>
+            <a
+              class="text-white text-decoration-none"
+              href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54"
+              >Denuncia contra servidores públicos</a
+            >
+          </h5>
+          <h5>Síguenos en</h5>
+          <ul class="d-inline">
+            <a
+              class="px-2"
+              target="_blank"
+              href="https://www.facebook.com/gobmexico"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#FFFFFF"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                /></svg
+            ></a>
+            <a
+              class="px-2"
+              target="_blank"
+              href="https://twitter.com/GobiernoMX"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#FFFFFF"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                /></svg
+            ></a>
+          </ul>
+        </div>
+      </div>
+      <div class="row g-0">
+        <img src="assets/pleca-gob.svg" alt="" />
+      </div>
+      <script src="assets/js/bootstrap.bundle.js"></script>
+      <script>
+        const elementsAList = document.getElementsByTagName("a");
+        const elementsPList = document.getElementsByTagName("p");
+        const elementsLIList = document.getElementsByTagName("li");
+        const elementsH1List = document.getElementsByTagName("h1");
+        const elementsH2List = document.getElementsByTagName("h2");
+        const elementsH3List = document.getElementsByTagName("h3");
+        const elementsH4List = document.getElementsByTagName("h4");
+        const elementsH5List = document.getElementsByTagName("h5");
+        const elementsH6List = document.getElementsByTagName("h6");
+
+        function getElementFontSize(element) {
+          //getComputedStyle nos devuelve las propiedades css de cada párrafo(elemento)
+          const elementFontSize = window
+            .getComputedStyle(element, null)
+            .getPropertyValue("font-size");
+          return parseFloat(elementFontSize); //Devolvemos el total de pixeles
+        }
+
+        function cambiarTexto(operador) {
+          cambioElementos(operador, elementsAList);
+          cambioElementos(operador, elementsPList);
+          cambioElementos(operador, elementsLIList);
+          cambioElementos(operador, elementsH1List);
+          cambioElementos(operador, elementsH2List);
+          cambioElementos(operador, elementsH3List);
+          cambioElementos(operador, elementsH4List);
+          cambioElementos(operador, elementsH5List);
+          cambioElementos(operador, elementsH6List);
+        }
+
+        function cambioElementos(operador, list) {
+          for (let element of list) {
+            //Obtener el total de pixel de cada párrafo.
+            const currentSize = getElementFontSize(element);
+
+            //Restar o sumar, dependiendo del operador.
+            const newFontSize =
+              (operador === "+" ? currentSize + 2 : currentSize - 1) + "px";
+            //Aplicarle al parrafo actual el nuevo tamaño.
+            element.style.fontSize = newFontSize;
+          }
+        }
+      </script>
     </footer>
-</body>
-
+  </body>
 </html>

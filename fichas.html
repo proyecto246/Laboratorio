@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hojas">
+        <h1 class="titulo">Hojas tecnicas Clusters</h1>
+        <div class="row d-flex justify-content-center">
+          <!--################################-->
+          <!--SERVIDORES-->
+          <!--################################-->
+  
+          <div class="row d-flex justify-content-center">
+            <!--################################-->
+            <!--AGAVE-->
+            <!--################################-->
+  
+            <div class="card" style="width: 18rem">
+              <img src="img/Agave.png" class="card-img-top" alt="..." />
+              <div class="card-body align-items-center">
+                <h5 class="card-title">Agave</h5>
+                <p class="card-text">
+                  Cluster HPC conectado a la Grid Morelense y usado para
+                  aprendizaje y desarrollo inicial
+                </p>
+                <button
+                  type="button"
+                  class="botton-server"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalAgave"
+                >
+                  Ver Especificaciones
+                </button>
+              </div>
+              <!--################################-->
+              <!-- MODAL AGAVE-->
+              <!--################################-->
+              <div
+                class="modal fade"
+                id="ModalAgave"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="ModalAgaveLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalAgaveLabel">Agave</h5>
+                    </div>
+                    <div class="modal-body text-center">
+                      <h2>32 cores en :</h2>
+                      <li>1 mtro c/2 Xeon Quadcore E5530 de 2.4 Ghz</li>
+                      <li>1 slave c/1 Xeon Quadcore E5530 de 2.4 Ghz</li>
+                      <li>2 slave c/1 Xeon Quadcore E5505 de 2.0 Ghz</li>
+                      <li>3 slave c/1 Xeon Quadcore E5460 de 3.16 Ghz</li>
+                      <h4 class="text-left">> 331.168 Gflops</h4>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!--################################-->
+            <!--PEYOTE-->
+            <!--################################-->
+  
+            <div class="card" style="width: 18rem">
+              <img src="img/Peyote.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Peyote</h5>
+                <p class="card-text">
+                  Cluster de visualización. Usado para porte del muro de
+                  visualizacion. Cuenta con 16 monitores (1280x720) que dan una
+                  resolucion global de 14 Mpix
+                </p>
+                <button
+                  type="button"
+                  class="botton-server"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalPeyote"
+                >
+                  Ver Especificaciones
+                </button>
+              </div>
+              <!-- MODAL PEYOTE-->
+              <div
+                class="modal fade"
+                id="ModalPeyote"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="ModalPeyoteLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalAgaveLabel">Peyote</h5>
+                    </div>
+                    <div class="modal-body text-center">
+                      <h4>28 cores en:</h4>
+                      <li>5 Intel Core2 Quad.</li>
+                      <li>4 Intel I5 Quad.</li>
+                      <br />
+                      <h4>3456 cudaCores en:</h4>
+                      <li>5 Nvidia GTX 650 (384 core cuda).</li>
+                      <li>3 Nvidia GTX 750 (512 core cuda).</li>
+                      <br />
+                      <h4 class="text-left">
+                        > 331.168 Gflops < <br />
+                        > 621.84 Gflops < <br />
+                        > 7197 GflopsSP <
+                      </h4>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!--################################-->
+            <!--NOPAL-->
+            <!--################################-->
+  
+            <div class="card" style="width: 18rem">
+              <img src="img/Nopal.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Nopal</h5>
+                <p class="text-center">
+                  Cluster HPC de Producción. Usado para pruebas finales a reportar
+                  en publicaciones
+                </p>
+                <button
+                  type="button"
+                  class="botton-server"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalNopal"
+                >
+                  Ver Especificaciones
+                </button>
+              </div>
+              <!-- MODAL NOPAL-->
+              <div
+                class="modal fade"
+                id="ModalNopal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="ModalPeyoteLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalAgaveLabel">Nopal</h5>
+                    </div>
+                    <div class="modal-body text-center">
+                      <h2>20 cores en:</h2>
+                      <li>1 mtro P4 840 3.26 Ghz</li>
+                      <li>4 slave Core 2 Duo E8200 2.66 Ghz</li>
+                      <h4>> 98.11 Gflops</h4>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cerrar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

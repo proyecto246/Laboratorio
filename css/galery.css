@@ -4,7 +4,7 @@
 
 
 .contenerdorgaleria{
-  background-color: #312e81;
+  background-color: #ffff;
 }
 .contenido2{
   background-color: #454391;
@@ -33,8 +33,8 @@
   padding: 15%;
 }
 .titulo {
-  color: #facc15;
-  font-size: 30px;
+  color: black;
+  font-size: 40px;
   transition-duration: 0.5s;
   margin: 20px;
   text-align: center;
